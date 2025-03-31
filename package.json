@@ -1,0 +1,16 @@
+{
+  "name": "tp01",
+  "version": "1.0.0",
+  "description": "primer TP de node",
+  "license": "ISC",
+  "author": "Michelle Epelbaum",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ej1": "node ./src/ej01.js",
+    "ej2": "node ./src/ej02.js",
+    "ej03": "node ./src/ej03.js"
+  }
+}
+
