@@ -4,13 +4,14 @@
   "description": "primer TP de node",
   "license": "ISC",
   "author": "Michelle Epelbaum",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "ej1": "node ./src/ej01.js",
     "ej2": "node ./src/ej02.js",
-    "ej03": "node ./src/ej03.js"
+    "ej3": "node ./src/ej03.js",
+    "mat": "node ./src/modules/matematica.js"
   }
 }
 

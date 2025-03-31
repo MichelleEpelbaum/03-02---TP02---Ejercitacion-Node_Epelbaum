@@ -4,4 +4,7 @@ export default class Alumno{
         this.DNI=DNI;
         this.edad=edad
     }
+    toString(){
+        return "nombre "+this.username+" dni "+this.DNI+" edad "+this.edad
+    }
 }

@@ -4,15 +4,16 @@ function sumar(x, y) {
  // No seas vago, acá hay que hacer el cuerpo de la función!!!
  return x+y
 }
-const multiplicar = (a, b) => {
- // No seas vago, acá hay que hacer el cuerpo de la función!!!
- a*b
-};
-const dividir=(a,b)=>{a/b}
+const multiplicar = (a, b) => a*b
+;
+
+const dividir=(a,b)=>a/b
 function restar(x, y)
 {
     return x-y
 }
+console.log(restar(2,3));
+
 
 let numeros=["dos", "cuatro", "ocho", "diez"]
 
