@@ -9,5 +9,13 @@ miObjeto = parsearUrl(miUrl);
 console.log(miObjeto);
 
 function parsearUrl(laURL) {
+
+    const myURL = new URL(laURL);
+
+    return {
+        host: myURL.host,
+        pathname: myURL.pathname ,
+        parametros: myURL.searchParams
+    }
   
 }
