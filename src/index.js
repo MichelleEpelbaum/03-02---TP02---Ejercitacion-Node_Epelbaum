@@ -64,6 +64,21 @@ app.get('/matematica/dividir', (req, res)=>{
   else{res.status(200).send(resultado)}//no termine
 
 })
+
+
+
+app.get('/alumno', (req, res)=>{
+  res.status(200).send('OK')
+})
+app.get('/alumno', (req, res)=>{
+  let dni=parseInt(req.query.dni)
+  //falta buscar los alumnos por el dni
+})
+
+
+
+
+
 app.get('')
   app.listen(port, () => { // Inicia el servidor en el puerto 3000
     console.log('Servidor escuchando en puerto 3000'); // Mensaje en consola

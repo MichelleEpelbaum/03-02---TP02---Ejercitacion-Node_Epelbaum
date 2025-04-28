@@ -9,7 +9,19 @@
 			"name": "saludar",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/saludar/Michu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"saludar",
+						"Michu"
+					]
+				}
 			},
 			"response": []
 		},
@@ -17,7 +29,21 @@
 			"name": "validarFecha",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/validarFecha/2025/04/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"validarFecha",
+						"2025",
+						"04",
+						"10"
+					]
+				}
 			},
 			"response": []
 		},
@@ -25,7 +51,29 @@
 			"name": "sumar",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/matematica/sumar?num1=20&num2=30",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"matematica",
+						"sumar"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "20"
+						},
+						{
+							"key": "num2",
+							"value": "30"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -33,7 +81,29 @@
 			"name": "restar",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/matematica/restar?num1=20&num2=30",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"matematica",
+						"restar"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "20"
+						},
+						{
+							"key": "num2",
+							"value": "30"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -41,7 +111,29 @@
 			"name": "multiplicar",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/matematica/multiplicar?num1=20&num2=30",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"matematica",
+						"multiplicar"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "20"
+						},
+						{
+							"key": "num2",
+							"value": "30"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -49,7 +141,29 @@
 			"name": "dividir",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/matematica/dividir?num1=30&num2=30",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"matematica",
+						"dividir"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "30"
+						},
+						{
+							"key": "num2",
+							"value": "30"
+						}
+					]
+				}
 			},
 			"response": []
 		}

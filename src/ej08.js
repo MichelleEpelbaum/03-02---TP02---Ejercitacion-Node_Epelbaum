@@ -1,69 +1,12 @@
-import axios from "axios";
+import { OMDBSearchByPage, OMDBSearchComplete, OMDBGetByImdbID } from './modules/omdb-wrapper.js';
+// Test de la función OMDBSearchByPage
+let resultado = await OMDBSearchByPage("cars", 1);
+console.log("OMDBSearchByPage", resultado);
 
+// Test de la función OMDBSearchComplete
+resultado = await OMDBSearchComplete("cars");
+console.log("OMDBSearchComplete", resultado);
 
-const APIKEY          = "7b62fa5d";        // Poné tu APIKEY, esta no funciona.
-
-
-const OMDBSearchByPage = async (searchText, page = 1) => {
-
-  let returnObject = {
-
-      respuesta     : false,
-
-      cantidadTotal : 0,
-
-      datos         : []
-
-    };
-
-
-  // No seas vago, acá hay que hacer el cuerpo de la función!!!
-
-  return returnObject;
-
-};
-
-
-const OMDBSearchComplete = async (searchText) => {
-
-  let returnObject = {
-
-      respuesta     : false,
-
-      cantidadTotal : 0,
-
-      datos         : []
-
-    };
-
-
-  // No seas vago, acá hay que hacer el cuerpo de la función!!!
-
-  return returnObject;
-
-};
-
-
-const OMDBGetByImdbID = async (imdbID) => {
-
-  let returnObject = {
-
-      respuesta     : false,
-
-      cantidadTotal : 0,
-
-      datos         : {}
-
-    };
-
-
-  // No seas vago, acá hay que hacer el cuerpo de la función!!!
-
-  return returnObject;
-
-};
-
-
-// Exporto todo lo que yo quiero exponer del módulo:
-
-export {OMDBSearchByPage, OMDBSearchComplete, OMDBGetByImdbID};
+// Test de la función OMDBGetByImdbID
+resultado = await OMDBGetByImdbID("tt0317219"); // Un ejemplo de IMDB ID
+console.log("OMDBGetByImdbID", resultado);
